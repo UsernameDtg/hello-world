@@ -1,0 +1,42 @@
+In Konsole:
+$ = Benutzer
+# = Admin
+
+ls -a/l = dir (mehrere Parameter möglich)
+
+|more = seitengerechte Darstellung
+
+clear
+cd .. = Ebene höher
+cd ~ / $HOME  = zurück ins Home-Verzeichnis
+
+auf Admin wechseln
+sudo -s
+sudo -i
+sudo reboot
+sudo chmod (-R für gesamten Ordner)
+
+Auf USB wechseln
+mit 2x cd .. ins oberste Verzeichnis,
+dann mit cd Media in Peripherie-Geräte wechseln
+Benennung kann mit tab geholt werden, falls nur eines vorhanden
+
+Textdatei anzeigen
+cat dateiname.txt
+
+strg + c abbrechen
+
+whish = dateiname pfad anzeigen
+
+rm = delete
+rm -R = rekursiv löschen (Verzeichnis + Unterordner) - gilt auch für cp
+cp = copy
+mkdir = verzeichnis anlegen
+pstree / top = aktive Prozesse
+man + Befehl / --help = Erklärung zu Befehlen
+sudo apt-get install Programmname = installieren
+sudo apt-get purge Programmname = deinstallieren
+
+chmod +x = execute
+
+
